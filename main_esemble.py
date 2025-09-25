@@ -63,7 +63,7 @@ class GermanDrawingGame:
     
         # Sınıfları pickle dosyasından yükle
         print("Kategoriler yükleniyor...")
-        pickle_path = 'category_names.pkl'
+        pickle_path = os.path.join("model", "category_names.pkl")
     
         with open(pickle_path, 'rb') as f:
             classes = pickle.load(f)
