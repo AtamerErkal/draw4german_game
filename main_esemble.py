@@ -32,7 +32,7 @@ class GermanDrawingGame:
         print("Model yükleniyor...")
     
         # Model yükleme
-        model_path = 'model\\ensemble_model_2_best.h5'
+        model_path = os.path.join("model", "ensemble_model_2_best.h5")
         print(f"Model path: {model_path}")
     
         if not os.path.exists(model_path):
