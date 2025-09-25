@@ -1,0 +1,16 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+.venv/
+quickdraw_env/
+game_final/
+
+
+data.zip
+old_models_results_codes/
